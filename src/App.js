@@ -49,7 +49,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <h4>Is your birthday lucky?🥳</h4>
+      <h4>Is your birthday lucky?🎂🥳</h4>
       <div className='borderClass'>
       <div>
         <label>Date of Birth</label>
