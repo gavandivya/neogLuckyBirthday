@@ -15,7 +15,7 @@ export default function App() {
     if(birthDate && luckyNumber){
       if(luckyNumber > 0){
         sum = calculateSum(birthDate);
-        if(sum == luckyNumber){
+        if(sum === Number(luckyNumber)){
           setMessage("Your Birthday is lucky");
         }
       else{
@@ -65,6 +65,15 @@ export default function App() {
       <p>{BirthdayMessage}</p>
       </div>
       </div>
+      <footer style={{position:"fixed",bottom:0}}>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/divya-gavandi/"><i className="fa fa-linkedin"></i></a></li>
+          <li><a href="https://www.facebook.com/divya.gavandi.3"><i className="fa fa-facebook" aria-hidden="true"></i> </a></li>
+          <li><a href="https://www.instagram.com/gavandivya/"><i className="fa fa-instagram" aria-hidden="true"></i> </a></li>
+          <li><a href="mailto:divya190399@gmail.com"><i className="fa fa-envelope" aria-hidden="true"></i> </a></li>
+        </ul>
+        <p>&#9400;	| 2022 |  @gavandivya</p>
+      </footer>
     </div>
   );
 }
