@@ -52,11 +52,11 @@ export default function App() {
       <h4>Is your birthday lucky?🥳</h4>
       <div className='borderClass'>
       <div>
-        <label>Date of Birth : </label>
+        <label>Date of Birth</label>
         <input type="date" ref={birthdate} />
       </div>
       <div>
-        <label>Lucky Number : </label>
+        <label>Lucky Number </label>
         <input type="number" placeholder='Enter your Lucky Number' ref={luckynumber} />
       </div>
       <div style={{textAlign:"center"}}>
