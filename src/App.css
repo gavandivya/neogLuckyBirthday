@@ -1,5 +1,47 @@
 .App {
   text-align: center;
+  font-style: italic;
+  font-family: monospace;
+  background-image: linear-gradient(to bottom left, rgb(45, 126, 160) , #2f0259);
+  height: 100vh;
+  /* background-color: #282c34; */
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+input{
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+}
+h4{
+  font-size: 30px;
+}
+
+button{
+  padding:10px;
+  font-family:"monospace";
+  font-style:"italic";
+  font-size: medium;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 10px;
+  outline: auto;
+}
+
+.borderClass{
+  border: 1px solid white;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: left;
+}
+
+label{
+  margin:4rem 4rem 4rem 0; 
 }
 
 .App-logo {
