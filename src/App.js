@@ -9,6 +9,8 @@ export default function App() {
   var [errorMessage,setError] = useState('');
 
   function checkLucky(){
+    setError("");
+    setMessage("");
     const birthDate = birthdate.current.value;
     const luckyNumber = luckynumber.current.value;
     let sum = 0;
@@ -28,9 +30,6 @@ export default function App() {
       else{
         setError("Please fill the details");
       }
-    // console.info(sum);
-    // console.info(typeof sum);
-    // console.info(typeof luckyNumber);
   }
 
   function calculateSum(birthDate){
