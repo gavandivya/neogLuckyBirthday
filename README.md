@@ -18,7 +18,7 @@ https://gavandivya-luckybirthday.netlify.app
 
 For generating favicon from any image of choice I used https://www.favicon-generator.org/
 
-### Website User Interface
+## Website User Interface
 
 ![This is an image](https://github.com/gavandivya/neogCampPortfolio/raw/main/images/luckyBirthday.png)
 
