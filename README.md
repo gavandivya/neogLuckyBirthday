@@ -4,7 +4,7 @@
 This repository consist of code which ask user for two fields the birth date and their lucky number 
 and tells whether their birthday is lucky or not.
 
-### Technology used
+### Technology used👩🏻‍💻
 - HTML5
 - CSS3
 - ReactJS
