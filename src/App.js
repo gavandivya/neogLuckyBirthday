@@ -49,6 +49,7 @@ export default function App() {
 
   return (
     <div className="App">
+      <small style={{ 'margin-top': '1rem' }}>Disclaimer: We do not store any of your private information</small>
       <h4>Is your birthday lucky?🎂🥳</h4>
       <div className='borderClass'>
         <div>
